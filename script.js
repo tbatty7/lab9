@@ -1,9 +1,6 @@
-$(function () {
+$(document).ready(function() {
+$.get('https://www.reddit.com/r/aww/.json', function(responseBody){
+console.log(responseBody);
 
-get('https://www.reddit.com/r/aww.json', function(response) {
-console.log(response.data);
-});
-
-
-
+})
 });
