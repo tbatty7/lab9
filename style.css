@@ -1,5 +1,21 @@
 div	{
-	border: solid 1px;
+	border: solid 2px grey;
 	margin: 5px 0;
 	padding: 10px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(white, grey);
+	background: -moz-linear-gradient(white, grey);
+    background: -o-linear-gradient(white, grey);
+    background: -ms-linear-gradient(white, grey);
+    background: linear-gradient(white, grey);
+
+}
+
+h1 {
+	text-align: center;
+	color: grey;
+}
+
+body	{
+		font-family: sans-serif;
 }
