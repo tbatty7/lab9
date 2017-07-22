@@ -1,4 +1,4 @@
-div	{
+div.post	{
 	border: solid 2px grey;
 	margin: 5px 0;
 	padding: 10px;
@@ -8,7 +8,6 @@ div	{
     background: -o-linear-gradient(white, grey);
     background: -ms-linear-gradient(white, grey);
     background: linear-gradient(white, grey);
-
 }
 
 h1 {
